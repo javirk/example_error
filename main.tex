@@ -1,0 +1,33 @@
+\documentclass[
+    11pt,
+	boxey,
+ a4paper
+]{tufte-style}
+
+\usepackage{geometry}
+
+\geometry{
+  textwidth=320pt, % main text block
+  marginparsep=20pt,
+  marginparwidth=110pt
+}
+\oddsidemargin=0pt
+\evensidemargin=125pt
+
+
+\title{The title}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\plainwidefig{1}{fig1.pdf}{Figure caption}{fig:fig1}
+
+\lipsum[2-4]
+
+\plainwidefig{1}{fig1.pdf}{Figure caption}{fig:fig1}
+
+\lipsum[5-6]
+
+
+\end{document}
