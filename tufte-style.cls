@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{tufte-style-thesis}[]
+\ProvidesClass{tufte-style}[]
 
 %	O P T I O N S
 %
